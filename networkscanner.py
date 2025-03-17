@@ -1,6 +1,10 @@
 from socket import *
 import time
+import ipaddress
+
+
 startTime = time.time()
+
 
 #TODO Debug code for user input. 
 if __name__ == '__main__':
@@ -16,3 +20,4 @@ if __name__ == '__main__':
             print('Port %d: Open' % (i,))
         s.close()
 print('Time taken: ', time.time() - startTime)
+
